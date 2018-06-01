@@ -1,0 +1,6 @@
+gc0308.ko
+vfe_io.ko
+vfe_v4l2.ko
+videobuf2-core.ko
+videobuf2-dma-contig.ko
+videobuf2-memops.ko

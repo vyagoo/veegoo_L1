@@ -1,0 +1,17 @@
+./
+./usr
+./usr/include
+./usr/include/mp4ffint.h
+./usr/include/faad.h
+./usr/include/neaacdec.h
+./usr/include/mp4ff.h
+./usr/lib
+./usr/lib/libfaad.a
+./usr/lib/libmp4ff.a
+./usr/lib/libfaad.so.2
+./usr/lib/libfaad.so.2.0.0
+./usr/lib/libfaad.so
+./usr/man
+./usr/man/manm
+./usr/man/manm/faad.man
+./host

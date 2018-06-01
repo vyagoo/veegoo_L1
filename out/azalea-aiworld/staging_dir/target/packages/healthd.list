@@ -1,0 +1,8 @@
+./
+./usr
+./usr/include
+./usr/include/batinfo
+./usr/include/batinfo/batinfo.h
+./usr/lib
+./usr/lib/libbatinfo.so
+./host

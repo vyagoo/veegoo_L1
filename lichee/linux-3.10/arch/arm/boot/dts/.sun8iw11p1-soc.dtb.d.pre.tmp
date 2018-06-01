@@ -1,0 +1,7 @@
+sun8iw11p1-soc.o: arch/arm/boot/dts/sun8iw11p1-soc.dts \
+ arch/arm/boot/dts/sun8iw11p1.dtsi \
+ /home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/arch/arm/boot/dts/include/dt-bindings/interrupt-controller/arm-gic.h \
+ /home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/arch/arm/boot/dts/include/dt-bindings/interrupt-controller/irq.h \
+ /home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/arch/arm/boot/dts/include/dt-bindings/gpio/gpio.h \
+ arch/arm/boot/dts/sun8iw11p1-clk.dtsi \
+ arch/arm/boot/dts/sun8iw11p1-pinctrl.dtsi

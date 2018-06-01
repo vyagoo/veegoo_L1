@@ -1,0 +1,8 @@
+./
+./usr
+./usr/include
+./usr/include/bluetooth_socket.h
+./usr/lib
+./usr/lib/libbtapp.so
+./usr/lib/libbsa.so
+./host

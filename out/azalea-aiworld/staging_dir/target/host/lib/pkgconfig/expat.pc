@@ -1,0 +1,11 @@
+prefix=/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/host
+exec_prefix=/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/host
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: expat
+Version: 2.1.0
+Description: expat XML parser
+URL: http://www.libexpat.org
+Libs: -L${libdir} -lexpat
+Cflags: -I${includedir}

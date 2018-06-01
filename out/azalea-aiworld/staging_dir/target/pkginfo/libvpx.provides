@@ -1,0 +1,9 @@
+libc.so
+libgcc_s.so.1
+libgomp-plugin-host_nonshm.so
+libgomp.so
+libgomp.so.1
+libgomp.so.1.0.0
+libvpx.so.4
+libvpx.so.4.0
+libvpx.so.4.0.0

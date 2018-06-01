@@ -1,0 +1,8 @@
+./
+./usr
+./usr/include
+./usr/include/response_code.h
+./usr/include/command_listener.h
+./lib
+./lib/libsoftap.so
+./host

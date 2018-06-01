@@ -1,0 +1,14 @@
+./
+./usr
+./usr/include
+./usr/include/lz4frame.h
+./usr/include/lz4hc.h
+./usr/include/lz4.h
+./usr/lib
+./usr/lib/pkgconfig
+./usr/lib/pkgconfig/liblz4.pc
+./usr/lib/liblz4.so
+./usr/lib/liblz4.so.1.7.1
+./usr/lib/liblz4.so.1
+./usr/lib/liblz4.a
+./host

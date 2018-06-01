@@ -1,0 +1,12 @@
+libc.so
+libgcc_s.so.1
+libgomp-plugin-host_nonshm.so
+libgomp.so
+libgomp.so.1
+libgomp.so.1.0.0
+liborc-0.4.so
+liborc-0.4.so.0
+liborc-0.4.so.0.27.0
+liborc-test-0.4.so
+liborc-test-0.4.so.0
+liborc-test-0.4.so.0.27.0

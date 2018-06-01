@@ -1,0 +1,3 @@
+snd-mixer-oss.ko
+snd-pcm-oss.ko
+snd-seq-device.ko

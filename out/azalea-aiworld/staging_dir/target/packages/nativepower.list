@@ -1,0 +1,8 @@
+./
+./usr
+./usr/include
+./usr/include/power_manager_client.h
+./usr/include/np_utils.h
+./lib
+./lib/libnativepower.so
+./host

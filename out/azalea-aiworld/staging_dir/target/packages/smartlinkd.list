@@ -1,0 +1,9 @@
+./
+./usr
+./usr/include
+./usr/include/aw_smartlinkd_connect.h
+./usr/include/smartlink_util.h
+./usr/lib
+./usr/lib/libsmartlinkd_client.so
+./usr/lib/libADT.a
+./host
