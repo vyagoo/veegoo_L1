@@ -28,8 +28,8 @@ MODLIBS=        $(LOCALMODLIBS) $(BASEMODLIBS)
 VERSION=	2.7
 srcdir=		.
 
-abs_srcdir=	/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/compile_dir/target/host/Python-2.7.11
-abs_builddir=	/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/compile_dir/target/host/Python-2.7.11
+abs_srcdir=	/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/compile_dir/target/host/Python-2.7.11
+abs_builddir=	/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/compile_dir/target/host/Python-2.7.11
 build=		x86_64-pc-linux-gnu
 host=		x86_64-pc-linux-gnu
 
@@ -74,12 +74,12 @@ MAKESETUP=      $(srcdir)/Modules/makesetup
 # Compiler options
 OPT=		-DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes
 BASECFLAGS=	 -fno-strict-aliasing
-CFLAGS=		$(BASECFLAGS) -O2 -I/home/wangyaliang/workspace/vecoo_new/out/host/include -I/home/wangyaliang/workspace/vecoo_new/out/host/usr/include -I/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/host/include -I/usr/include/ncursesw -I/usr/include/ncurses $(OPT) $(EXTRA_CFLAGS)
+CFLAGS=		$(BASECFLAGS) -O2 -I/home/laiyandong/v40_veegoo_20180531/out/host/include -I/home/laiyandong/v40_veegoo_20180531/out/host/usr/include -I/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/host/include -I/usr/include/ncursesw -I/usr/include/ncurses $(OPT) $(EXTRA_CFLAGS)
 # Both CPPFLAGS and LDFLAGS need to contain the shell's value for setup.py to
 # be able to build extension modules using the directories specified in the
 # environment variables
-CPPFLAGS=	-I. -IInclude -I$(srcdir)/Include -I/home/wangyaliang/workspace/vecoo_new/out/host/include -I/home/wangyaliang/workspace/vecoo_new/out/host/usr/include -I/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/host/include
-LDFLAGS=	-L/home/wangyaliang/workspace/vecoo_new/out/host/lib -L/home/wangyaliang/workspace/vecoo_new/out/host/usr/lib -L/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/host/lib
+CPPFLAGS=	-I. -IInclude -I$(srcdir)/Include -I/home/laiyandong/v40_veegoo_20180531/out/host/include -I/home/laiyandong/v40_veegoo_20180531/out/host/usr/include -I/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/host/include
+LDFLAGS=	-L/home/laiyandong/v40_veegoo_20180531/out/host/lib -L/home/laiyandong/v40_veegoo_20180531/out/host/usr/lib -L/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/host/lib
 LDLAST=		
 SGI_ABI=	
 CCSHARED=	-fPIC
@@ -98,10 +98,10 @@ MACHDEP=	linux2
 MULTIARCH=	x86_64-linux-gnu
 
 # Install prefix for architecture-independent files
-prefix=		/home/wangyaliang/workspace/vecoo_new/out/host
+prefix=		/home/laiyandong/v40_veegoo_20180531/out/host
 
 # Install prefix for architecture-dependent files
-exec_prefix=	/home/wangyaliang/workspace/vecoo_new/out/host
+exec_prefix=	/home/laiyandong/v40_veegoo_20180531/out/host
 
 # Install prefix for data files
 datarootdir=    ${prefix}/share
@@ -160,7 +160,7 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 'CC=gcc' 'CPPFLAGS=-I/home/wangyaliang/workspace/vecoo_new/out/host/include -I/home/wangyaliang/workspace/vecoo_new/out/host/usr/include -I/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/host/include' 'LDFLAGS=-L/home/wangyaliang/workspace/vecoo_new/out/host/lib -L/home/wangyaliang/workspace/vecoo_new/out/host/usr/lib -L/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/host/lib' 'SHELL=/usr/bin/env bash' '--target=x86_64-linux-gnu' '--host=x86_64-linux-gnu' '--build=x86_64-linux-gnu' '--program-prefix=' '--program-suffix=' '--prefix=/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/host' '--exec-prefix=/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/host' '--sysconfdir=/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/host/etc' '--localstatedir=/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/host/var' '--sbindir=/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/host/bin' '--without-cxx-main' '--without-pymalloc' '--with-threads' '--prefix=/home/wangyaliang/workspace/vecoo_new/out/host' '--exec-prefix=/home/wangyaliang/workspace/vecoo_new/out/host' '--sysconfdir=/home/wangyaliang/workspace/vecoo_new/out/host/host/etc' '--localstatedir=/home/wangyaliang/workspace/vecoo_new/out/host/var' '--sbindir=/home/wangyaliang/workspace/vecoo_new/out/host/bin' '--with-system-expat=/home/wangyaliang/workspace/vecoo_new/out/host' '--with-system-ffi=/home/wangyaliang/workspace/vecoo_new/out/host' '--with-ensurepip=upgrade' 'CONFIG_SITE=' 'CFLAGS=-O2 -I/home/wangyaliang/workspace/vecoo_new/out/host/include -I/home/wangyaliang/workspace/vecoo_new/out/host/usr/include -I/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/host/include -I/usr/include/ncursesw -I/usr/include/ncurses' 'build_alias=x86_64-linux-gnu' 'host_alias=x86_64-linux-gnu' 'target_alias=x86_64-linux-gnu' 'PKG_CONFIG=/home/wangyaliang/workspace/vecoo_new/out/host/bin/pkg-config' 'PKG_CONFIG_PATH=/home/wangyaliang/workspace/vecoo_new/out/host/lib/pkgconfig:/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/host/lib/pkgconfig' 'PKG_CONFIG_LIBDIR=/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/host/lib/pkgconfig'
+CONFIG_ARGS=	 'CC=gcc' 'CPPFLAGS=-I/home/laiyandong/v40_veegoo_20180531/out/host/include -I/home/laiyandong/v40_veegoo_20180531/out/host/usr/include -I/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/host/include' 'LDFLAGS=-L/home/laiyandong/v40_veegoo_20180531/out/host/lib -L/home/laiyandong/v40_veegoo_20180531/out/host/usr/lib -L/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/host/lib' 'SHELL=/usr/bin/env bash' '--target=x86_64-linux-gnu' '--host=x86_64-linux-gnu' '--build=x86_64-linux-gnu' '--program-prefix=' '--program-suffix=' '--prefix=/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/host' '--exec-prefix=/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/host' '--sysconfdir=/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/host/etc' '--localstatedir=/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/host/var' '--sbindir=/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/host/bin' '--without-cxx-main' '--without-pymalloc' '--with-threads' '--prefix=/home/laiyandong/v40_veegoo_20180531/out/host' '--exec-prefix=/home/laiyandong/v40_veegoo_20180531/out/host' '--sysconfdir=/home/laiyandong/v40_veegoo_20180531/out/host/host/etc' '--localstatedir=/home/laiyandong/v40_veegoo_20180531/out/host/var' '--sbindir=/home/laiyandong/v40_veegoo_20180531/out/host/bin' '--with-system-expat=/home/laiyandong/v40_veegoo_20180531/out/host' '--with-system-ffi=/home/laiyandong/v40_veegoo_20180531/out/host' '--with-ensurepip=upgrade' 'CONFIG_SITE=' 'CFLAGS=-O2 -I/home/laiyandong/v40_veegoo_20180531/out/host/include -I/home/laiyandong/v40_veegoo_20180531/out/host/usr/include -I/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/host/include -I/usr/include/ncursesw -I/usr/include/ncurses' 'build_alias=x86_64-linux-gnu' 'host_alias=x86_64-linux-gnu' 'target_alias=x86_64-linux-gnu' 'PKG_CONFIG=/home/laiyandong/v40_veegoo_20180531/out/host/bin/pkg-config' 'PKG_CONFIG_PATH=/home/laiyandong/v40_veegoo_20180531/out/host/lib/pkgconfig:/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/host/lib/pkgconfig' 'PKG_CONFIG_LIBDIR=/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/host/lib/pkgconfig'
 
 
 # Subdirectories with code

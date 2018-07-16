@@ -29,7 +29,7 @@ $^W = 1;
 
 BEGIN
 {
-  @Aclocal::perl_libdirs = ($ENV{'STAGING_DIR_HOST'} ? $ENV{'STAGING_DIR_HOST'} . '/share/automake-1.15' : '/home/wangyaliang/workspace/vecoo_new/out/host/share/automake-1.15')
+  @Aclocal::perl_libdirs = ($ENV{'STAGING_DIR_HOST'} ? $ENV{'STAGING_DIR_HOST'} . '/share/automake-1.15' : '/home/laiyandong/v40_veegoo_20180531/out/host/share/automake-1.15')
     unless @Aclocal::perl_libdirs;
   unshift @INC, @Aclocal::perl_libdirs;
 }
@@ -71,8 +71,8 @@ $perl_threads = 0;
 # ACLOCAL_PATH environment variable, and reset with the '--system-acdir'
 # option.
 my @user_includes = ();
-my @automake_includes = ($ENV{'STAGING_DIR_HOST'} ? $ENV{'STAGING_DIR_HOST'} . "/share/aclocal-$APIVERSION" : "/home/wangyaliang/workspace/vecoo_new/out/host/share/aclocal-$APIVERSION");
-my @system_includes = ($ENV{'STAGING_DIR_HOST'} ? $ENV{'STAGING_DIR_HOST'} . '/share/aclocal' : '/home/wangyaliang/workspace/vecoo_new/out/host/share/aclocal');
+my @automake_includes = ($ENV{'STAGING_DIR_HOST'} ? $ENV{'STAGING_DIR_HOST'} . "/share/aclocal-$APIVERSION" : "/home/laiyandong/v40_veegoo_20180531/out/host/share/aclocal-$APIVERSION");
+my @system_includes = ($ENV{'STAGING_DIR_HOST'} ? $ENV{'STAGING_DIR_HOST'} . '/share/aclocal' : '/home/laiyandong/v40_veegoo_20180531/out/host/share/aclocal');
 
 # Whether we should copy M4 file in $user_includes[0].
 my $install = 0;

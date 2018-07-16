@@ -21,9 +21,9 @@ if test -n "$STAGING_DIR_HOST"; then
 	: ${QUILT_DIR=$STAGING_DIR_HOST/share/quilt} ${QUILT_LIB=$STAGING_DIR_HOST/lib/quilt}
 	: ${QUILT_ETC=$STAGING_DIR_HOST/etc}
 else
-	export TEXTDOMAINDIR=/home/wangyaliang/workspace/vecoo_new/out/host/share/locale
-	: ${QUILT_DIR=/home/wangyaliang/workspace/vecoo_new/out/host/share/quilt}
-	: ${QUILT_ETC=/home/wangyaliang/workspace/vecoo_new/out/host/etc}
+	export TEXTDOMAINDIR=/home/laiyandong/v40_veegoo_20180531/out/host/share/locale
+	: ${QUILT_DIR=/home/laiyandong/v40_veegoo_20180531/out/host/share/quilt}
+	: ${QUILT_ETC=/home/laiyandong/v40_veegoo_20180531/out/host/etc}
 fi
 
 export QUILT_DIR
@@ -61,7 +61,7 @@ Global options:
 
 --quiltrc file
 	Use the specified configuration file instead of ~/.quiltrc (or
-	/home/wangyaliang/workspace/vecoo_new/out/host/etc/quilt.quiltrc if ~/.quiltrc does not exist).  See the pdf
+	/home/laiyandong/v40_veegoo_20180531/out/host/etc/quilt.quiltrc if ~/.quiltrc does not exist).  See the pdf
 	documentation for details about its possible contents.  The
 	special value \"-\" causes quilt not to read any configuration
 	file.

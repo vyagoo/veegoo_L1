@@ -17,7 +17,7 @@ old_library='libgettextpo.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -ldl -lc -L/home/wangyaliang/workspace/vecoo_new/out/host/lib -L/home/wangyaliang/workspace/vecoo_new/out/host/usr/lib -L/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/host/lib'
+dependency_libs=' -ldl -lc -L/home/laiyandong/v40_veegoo_20180531/out/host/lib -L/home/laiyandong/v40_veegoo_20180531/out/host/usr/lib -L/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/host/lib'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/host/lib'
+libdir='/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/host/lib'

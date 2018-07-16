@@ -1,5 +1,5 @@
-prefix=/home/wangyaliang/workspace/vecoo_new/out/host
-exec_prefix=/home/wangyaliang/workspace/vecoo_new/out/host
+prefix=/home/laiyandong/v40_veegoo_20180531/out/host
+exec_prefix=/home/laiyandong/v40_veegoo_20180531/out/host
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
 

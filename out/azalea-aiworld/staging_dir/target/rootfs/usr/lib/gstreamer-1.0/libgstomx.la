@@ -17,7 +17,7 @@ old_library=''
 inherited_linker_flags=' -pthread'
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/usr/lib -lgstaudio-1.0 -lgstpbutils-1.0 -lgstvideo-1.0 -lgstbase-1.0 -lgstreamer-1.0 -lgobject-2.0 -lgmodule-2.0 -lglib-2.0'
+dependency_libs=' -L/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/usr/lib -lgstaudio-1.0 -lgstpbutils-1.0 -lgstvideo-1.0 -lgstbase-1.0 -lgstreamer-1.0 -lgobject-2.0 -lgmodule-2.0 -lglib-2.0'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/compile_dir/target/gst-omx-1.10.4/lib/gstreamer-1.0'
+libdir='/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/compile_dir/target/gst-omx-1.10.4/lib/gstreamer-1.0'

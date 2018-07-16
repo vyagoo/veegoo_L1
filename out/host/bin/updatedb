@@ -175,7 +175,7 @@ test -z "$PRUNEREGEX" &&
   PRUNEREGEX=`echo $PRUNEPATHS|sed -e 's,^,\\\(^,' -e 's, ,$\\\)\\\|\\\(^,g' -e 's,$,$\\\),'`
 
 # The database file to build.
-: ${LOCATE_DB=/home/wangyaliang/workspace/vecoo_new/out/host/var/locatedb}
+: ${LOCATE_DB=/home/laiyandong/v40_veegoo_20180531/out/host/var/locatedb}
 
 # Directory to hold intermediate files.
 if test -d /var/tmp; then
@@ -194,14 +194,14 @@ export TMPDIR
 if test -n "$LIBEXECDIR" ; then
     : LIBEXECDIR already set, do nothing
 else
-    : ${LIBEXECDIR=/home/wangyaliang/workspace/vecoo_new/out/host/libexec}
+    : ${LIBEXECDIR=/home/laiyandong/v40_veegoo_20180531/out/host/libexec}
 fi
 
 # The directory containing find.
 if test -n "$BINDIR" ; then
     : BINDIR already set, do nothing
 else
-    : ${BINDIR=/home/wangyaliang/workspace/vecoo_new/out/host/bin}
+    : ${BINDIR=/home/laiyandong/v40_veegoo_20180531/out/host/bin}
 fi
 
 # The names of the utilities to run to build the database.

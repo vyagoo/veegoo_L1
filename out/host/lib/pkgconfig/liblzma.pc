@@ -5,10 +5,10 @@
 # You can do whatever you want with this file.
 #
 
-prefix=/home/wangyaliang/workspace/vecoo_new/out/host
-exec_prefix=/home/wangyaliang/workspace/vecoo_new/out/host
-libdir=/home/wangyaliang/workspace/vecoo_new/out/host/lib
-includedir=/home/wangyaliang/workspace/vecoo_new/out/host/include
+prefix=/home/laiyandong/v40_veegoo_20180531/out/host
+exec_prefix=/home/laiyandong/v40_veegoo_20180531/out/host
+libdir=/home/laiyandong/v40_veegoo_20180531/out/host/lib
+includedir=/home/laiyandong/v40_veegoo_20180531/out/host/include
 
 Name: liblzma
 Description: General purpose data compression library

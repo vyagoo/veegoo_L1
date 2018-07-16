@@ -14,5 +14,5 @@ Version: 2.12.1
 Requires:  freetype2
 Requires.private:  expat
 Libs: -L${libdir} -lfontconfig
-Libs.private: -L/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/usr/lib -lexpat -L/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/usr/lib -lfreetype  
-Cflags: -I${includedir} -I/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/usr/include -I/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/usr/include/freetype2 -I/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/usr/include  
+Libs.private: -L/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/usr/lib -lexpat -L/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/usr/lib -lfreetype  
+Cflags: -I${includedir} -I/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/usr/include -I/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/usr/include/freetype2 -I/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/usr/include  

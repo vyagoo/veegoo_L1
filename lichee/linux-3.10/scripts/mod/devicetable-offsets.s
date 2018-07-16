@@ -14,19 +14,19 @@
 @	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.3, MPC version 1.0.3
 @ GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 @ options passed:  -nostdinc
-@ -I /home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/arch/arm/include
+@ -I /home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/arch/arm/include
 @ -I arch/arm/include/generated -I include
-@ -I /home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/arch/arm/include/uapi
+@ -I /home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/arch/arm/include/uapi
 @ -I arch/arm/include/generated/uapi
-@ -I /home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/include/uapi
+@ -I /home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/include/uapi
 @ -I include/generated/uapi -I arch/arm/mach-sunxi/include
-@ -iprefix /home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/
-@ -idirafter /home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/usr/include
+@ -iprefix /home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/
+@ -idirafter /home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/usr/include
 @ -D __KERNEL__ -D __LINUX_ARM_ARCH__=7 -U arm -D CC_HAVE_ASM_GOTO
 @ -D KBUILD_STR(s)=#s -D KBUILD_BASENAME=KBUILD_STR(devicetable_offsets)
 @ -D KBUILD_MODNAME=KBUILD_STR(devicetable_offsets)
-@ -isystem /home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/include
-@ -include /home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/include/linux/kconfig.h
+@ -isystem /home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/include
+@ -include /home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/include/linux/kconfig.h
 @ -MD scripts/mod/.devicetable-offsets.s.d
 @ scripts/mod/devicetable-offsets.c -mlittle-endian -mabi=aapcs-linux
 @ -mno-thumb-interwork -marm -march=armv7-a -mfloat-abi=soft
@@ -998,33 +998,33 @@ main:
 	.ascii	"long long int\000"
 .LASF4:
 	.ascii	"unsigned int\000"
+.LASF1:
+	.ascii	"unsigned char\000"
 .LASF15:
 	.ascii	"main\000"
 .LASF7:
 	.ascii	"long unsigned int\000"
 .LASF6:
 	.ascii	"long long unsigned int\000"
-.LASF1:
-	.ascii	"unsigned char\000"
+.LASF11:
+	.ascii	"_Bool\000"
 .LASF9:
 	.ascii	"char\000"
 .LASF10:
 	.ascii	"long int\000"
-.LASF11:
-	.ascii	"_Bool\000"
+.LASF14:
+	.ascii	"/home/laiyandong/v40_veegoo_20180531/lichee/linux-3"
+	.ascii	".10\000"
 .LASF3:
 	.ascii	"short unsigned int\000"
 .LASF0:
 	.ascii	"signed char\000"
 .LASF13:
 	.ascii	"scripts/mod/devicetable-offsets.c\000"
-.LASF8:
-	.ascii	"sizetype\000"
 .LASF2:
 	.ascii	"short int\000"
-.LASF14:
-	.ascii	"/home/wangyaliang/workspace/vecoo_new/lichee/linux-"
-	.ascii	"3.10\000"
+.LASF8:
+	.ascii	"sizetype\000"
 .LASF12:
 	.ascii	"GNU C11 5.2.1 -mlittle-endian -mabi=aapcs-linux -mn"
 	.ascii	"o-thumb-interwork -marm -march=armv7-a -mfloat-abi="

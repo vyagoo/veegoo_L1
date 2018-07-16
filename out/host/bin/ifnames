@@ -34,7 +34,7 @@ $^W = 1;
 BEGIN
 {
   my $pkgdatadir = $ENV{'autom4te_perllibdir'} ||
-	($ENV{'STAGING_DIR'} ? $ENV{'STAGING_DIR'} . '/../../../host/share/autoconf' : '/home/wangyaliang/workspace/vecoo_new/out/host/share/autoconf');
+	($ENV{'STAGING_DIR'} ? $ENV{'STAGING_DIR'} . '/../../../host/share/autoconf' : '/home/laiyandong/v40_veegoo_20180531/out/host/share/autoconf');
   unshift @INC, $pkgdatadir;
 
   # Override SHELL.  On DJGPP SHELL may not be set to a shell

@@ -21,7 +21,7 @@
 
 /memreserve/ 0x43000000 0x00000800;
 
-# 1 "/home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/arch/arm/boot/dts/include/dt-bindings/interrupt-controller/arm-gic.h" 1
+# 1 "/home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/arch/arm/boot/dts/include/dt-bindings/interrupt-controller/arm-gic.h" 1
 
 
 
@@ -29,10 +29,10 @@
 
 
 
-# 1 "/home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/arch/arm/boot/dts/include/dt-bindings/interrupt-controller/irq.h" 1
-# 9 "/home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/arch/arm/boot/dts/include/dt-bindings/interrupt-controller/arm-gic.h" 2
+# 1 "/home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/arch/arm/boot/dts/include/dt-bindings/interrupt-controller/irq.h" 1
+# 9 "/home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/arch/arm/boot/dts/include/dt-bindings/interrupt-controller/arm-gic.h" 2
 # 11 "arch/arm/boot/dts/sun8iw11p1.dtsi" 2
-# 1 "/home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/arch/arm/boot/dts/include/dt-bindings/gpio/gpio.h" 1
+# 1 "/home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/arch/arm/boot/dts/include/dt-bindings/gpio/gpio.h" 1
 # 12 "arch/arm/boot/dts/sun8iw11p1.dtsi" 2
 # 1 "arch/arm/boot/dts/sun8iw11p1-clk.dtsi" 1
 /{

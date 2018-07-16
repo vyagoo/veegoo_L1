@@ -17,7 +17,7 @@ old_library=''
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/usr/lib -L/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/lib -L/home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/usr/lib -L/home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib -lm -lrt -lpthread'
+dependency_libs=' -L/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/usr/lib -L/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/lib -L/home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/usr/lib -L/home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib -lm -lrt -lpthread'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''

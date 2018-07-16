@@ -68,7 +68,7 @@ first, and a last patch name of \`-' denotes the last patch in the series.
 
 --reply-to message
 	Add the appropriate headers to reply to the specified message.
-" "/home/wangyaliang/workspace/vecoo_new/out/host/share/doc/quilt/README.MAIL"
+" "/home/laiyandong/v40_veegoo_20180531/out/host/share/doc/quilt/README.MAIL"
 		exit 0
 	else
 		exit 1

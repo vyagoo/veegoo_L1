@@ -9,5 +9,5 @@ Version: 2.9.3
 Description: libXML library version2.
 Requires:
 Libs: -L${libdir} -lxml2
-Libs.private:   -L/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/usr/lib -lz   -lm  
+Libs.private:   -L/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/usr/lib -lz   -lm  
 Cflags: -I${includedir}/libxml2 

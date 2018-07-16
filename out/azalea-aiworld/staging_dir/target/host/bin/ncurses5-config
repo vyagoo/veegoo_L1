@@ -30,8 +30,8 @@
 #
 # Author: Thomas E. Dickey, 2006-on
 
-prefix=/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/usr
-exec_prefix=/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/usr
+prefix=/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/usr
+exec_prefix=/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/usr
 
 bindir="/usr/bin"
 includedir="${prefix}/include"
@@ -85,11 +85,11 @@ ENDECHO
 	--libs)
 		if test ncurses = ncurses ; then
 		sed -e 's,^[ ]*,,' -e 's, [ ]*, ,g' -e 's,[ ]*$,,' <<-ENDECHO
-			-L$libdir -Wl,-rpath,/home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib -Wl,-rpath,/home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/usr/lib -Wl,-rpath,/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/lib -Wl,-rpath,/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/usr/lib  -l${THIS} 
+			-L$libdir -Wl,-rpath,/home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib -Wl,-rpath,/home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/usr/lib -Wl,-rpath,/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/lib -Wl,-rpath,/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/usr/lib  -l${THIS} 
 ENDECHO
 		else
 		sed -e 's,^[ ]*,,' -e 's, [ ]*, ,g' -e 's,[ ]*$,,' <<-ENDECHO
-			-L$libdir -Wl,-rpath,/home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib -Wl,-rpath,/home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/usr/lib -Wl,-rpath,/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/lib -Wl,-rpath,/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/usr/lib  -l${THIS} -l${TINFO_LIB} 
+			-L$libdir -Wl,-rpath,/home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib -Wl,-rpath,/home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/usr/lib -Wl,-rpath,/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/lib -Wl,-rpath,/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/usr/lib  -l${THIS} -l${TINFO_LIB} 
 ENDECHO
 		fi
 		;;

@@ -81,19 +81,19 @@ build=x86_64-pc-linux-gnu
 build_os=linux-gnu
 
 # A sed program that does not truncate output.
-SED="/home/wangyaliang/workspace/vecoo_new/out/host/bin/sed"
+SED="/home/laiyandong/v40_veegoo_20180531/out/host/bin/sed"
 
 # Sed that helps us avoid accidentally triggering echo(1) options like -n.
 Xsed="$SED -e 1s/^X//"
 
 # A grep program that handles long lines.
-GREP="/home/wangyaliang/workspace/vecoo_new/out/host/bin/grep"
+GREP="/home/laiyandong/v40_veegoo_20180531/out/host/bin/grep"
 
 # An ERE matcher.
-EGREP="/home/wangyaliang/workspace/vecoo_new/out/host/bin/grep -E"
+EGREP="/home/laiyandong/v40_veegoo_20180531/out/host/bin/grep -E"
 
 # A literal string matcher.
-FGREP="/home/wangyaliang/workspace/vecoo_new/out/host/bin/grep -F"
+FGREP="/home/laiyandong/v40_veegoo_20180531/out/host/bin/grep -F"
 
 # A BSD- or MS-compatible name lister.
 NM="arm-openwrt-linux-muslgnueabi-nm"
@@ -272,7 +272,7 @@ finish_eval=""
 hardcode_into_libs=yes
 
 # Compile-time system search path for libraries.
-sys_lib_search_path_spec="/home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1 /home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib/gcc /home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/arm-openwrt-linux-muslgnueabi/lib "
+sys_lib_search_path_spec="/home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1 /home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/lib/gcc /home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/arm-openwrt-linux-muslgnueabi/lib "
 
 # Run-time system search path for libraries.
 sys_lib_dlsearch_path_spec="/lib /usr/lib /usr/lib/x86_64-linux-gnu/libfakeroot /lib/i386-linux-gnu /usr/lib/i386-linux-gnu /lib/i686-linux-gnu /usr/lib/i686-linux-gnu /usr/local/lib /lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/mesa-egl /usr/lib/x86_64-linux-gnu/mesa /lib32 /usr/lib32 /libx32 /usr/libx32 "
@@ -583,15 +583,15 @@ progpath="$0"
 
 : ${CP="cp -f"}
 test "${ECHO+set}" = set || ECHO=${as_echo-'printf %s\n'}
-: ${EGREP="/home/wangyaliang/workspace/vecoo_new/out/host/bin/grep -E"}
-: ${FGREP="/home/wangyaliang/workspace/vecoo_new/out/host/bin/grep -F"}
-: ${GREP="/home/wangyaliang/workspace/vecoo_new/out/host/bin/grep"}
+: ${EGREP="/home/laiyandong/v40_veegoo_20180531/out/host/bin/grep -E"}
+: ${FGREP="/home/laiyandong/v40_veegoo_20180531/out/host/bin/grep -F"}
+: ${GREP="/home/laiyandong/v40_veegoo_20180531/out/host/bin/grep"}
 : ${LN_S="ln -s"}
 : ${MAKE="make"}
 : ${MKDIR="mkdir"}
 : ${MV="mv -f"}
 : ${RM="rm -f"}
-: ${SED="/home/wangyaliang/workspace/vecoo_new/out/host/bin/sed"}
+: ${SED="/home/laiyandong/v40_veegoo_20180531/out/host/bin/sed"}
 : ${SHELL="${CONFIG_SHELL-/bin/sh}"}
 : ${Xsed="$SED -e 1s/^X//"}
 
@@ -10213,18 +10213,18 @@ file_list_spec=""
 hardcode_action=immediate
 
 # The directories searched by this compiler when creating a shared library.
-compiler_lib_search_dirs="/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/usr/lib /home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1 /home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc /home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/../../../../arm-openwrt-linux-muslgnueabi/lib"
+compiler_lib_search_dirs="/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/usr/lib /home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1 /home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc /home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/../../../../arm-openwrt-linux-muslgnueabi/lib"
 
 # Dependencies to place before and after the objects being linked to
 # create a shared library.
-predep_objects="/home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/crtbeginS.o"
-postdep_objects="/home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/crtendS.o /home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o"
+predep_objects="/home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/crtbeginS.o"
+postdep_objects="/home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/crtendS.o /home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o"
 predeps=""
 postdeps="-lstdc++ -lm -lssp_nonshared -lgcc_s -lc -lgcc_s"
 
 # The library search path used internally by the compiler when linking
 # a shared library.
-compiler_lib_search_path="-L/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/usr/lib -L/home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1 -L/home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc -L/home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/../../../../arm-openwrt-linux-muslgnueabi/lib"
+compiler_lib_search_path="-L/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/usr/lib -L/home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1 -L/home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc -L/home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/../../../../arm-openwrt-linux-muslgnueabi/lib"
 
 # ### END LIBTOOL TAG CONFIG: CXX
 
@@ -10525,18 +10525,18 @@ file_list_spec=""
 hardcode_action=immediate
 
 # The directories searched by this compiler when creating a shared library.
-compiler_lib_search_dirs="/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/usr/lib /home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1 /home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc /home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/../../../../arm-openwrt-linux-muslgnueabi/lib"
+compiler_lib_search_dirs="/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/usr/lib /home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1 /home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc /home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/../../../../arm-openwrt-linux-muslgnueabi/lib"
 
 # Dependencies to place before and after the objects being linked to
 # create a shared library.
-predep_objects="/home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/crtbeginS.o"
-postdep_objects="/home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/crtendS.o /home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o"
+predep_objects="/home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/crtbeginS.o"
+postdep_objects="/home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/crtendS.o /home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o"
 predeps=""
 postdeps="-lgfortran -lm -lssp_nonshared -lgcc_s -lm -lgcc_s -lc -lgcc_s"
 
 # The library search path used internally by the compiler when linking
 # a shared library.
-compiler_lib_search_path="-L/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/usr/lib -L/home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1 -L/home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc -L/home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/../../../../arm-openwrt-linux-muslgnueabi/lib"
+compiler_lib_search_path="-L/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/usr/lib -L/home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1 -L/home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc -L/home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/../../../../arm-openwrt-linux-muslgnueabi/lib"
 
 # ### END LIBTOOL TAG CONFIG: FC
 

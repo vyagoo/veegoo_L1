@@ -41,7 +41,7 @@ version=2.54.1
 try_ln_s=:
 
 # Directory where the sources are stored.
-prefix=/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/host
+prefix=/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/host
 case `uname` in
 MINGW32*)
     prefix="`dirname $0`/.."

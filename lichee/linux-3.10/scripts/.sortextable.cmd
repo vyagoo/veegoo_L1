@@ -1,4 +1,4 @@
-cmd_scripts/sortextable := gcc -Wp,-MD,scripts/.sortextable.d -O2 -I/home/wangyaliang/workspace/vecoo_new/out/host/include -I/home/wangyaliang/workspace/vecoo_new/out/host/usr/include  -Wall -Wmissing-prototypes -Wstrict-prototypes   -I/home/wangyaliang/workspace/vecoo_new/out/host/include -I/home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/tools/include -I/home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/tools/include -o scripts/sortextable scripts/sortextable.c  
+cmd_scripts/sortextable := gcc -Wp,-MD,scripts/.sortextable.d -O2 -I/home/laiyandong/v40_veegoo_20180531/out/host/include -I/home/laiyandong/v40_veegoo_20180531/out/host/usr/include  -Wall -Wmissing-prototypes -Wstrict-prototypes   -I/home/laiyandong/v40_veegoo_20180531/out/host/include -I/home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/tools/include -I/home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/tools/include -o scripts/sortextable scripts/sortextable.c  
 
 source_scripts/sortextable := scripts/sortextable.c
 
@@ -14,8 +14,8 @@ deps_scripts/sortextable := \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/time.h \
   /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h \
-  /home/wangyaliang/workspace/vecoo_new/out/host/include/endian.h \
-  /home/wangyaliang/workspace/vecoo_new/out/host/include/byteswap.h \
+  /home/laiyandong/v40_veegoo_20180531/out/host/include/endian.h \
+  /home/laiyandong/v40_veegoo_20180531/out/host/include/byteswap.h \
   /usr/include/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
@@ -26,7 +26,7 @@ deps_scripts/sortextable := \
   /usr/include/x86_64-linux-gnu/bits/sigset.h \
   /usr/include/x86_64-linux-gnu/bits/time.h \
   /usr/include/x86_64-linux-gnu/bits/select2.h \
-  /home/wangyaliang/workspace/vecoo_new/out/host/include/sys/sysmacros.h \
+  /home/laiyandong/v40_veegoo_20180531/out/host/include/sys/sysmacros.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/sys/mman.h \
   /usr/include/x86_64-linux-gnu/bits/mman.h \
@@ -34,7 +34,7 @@ deps_scripts/sortextable := \
   /usr/include/x86_64-linux-gnu/sys/stat.h \
   /usr/include/x86_64-linux-gnu/bits/stat.h \
   /usr/include/getopt.h \
-  /home/wangyaliang/workspace/vecoo_new/out/host/include/elf.h \
+  /home/laiyandong/v40_veegoo_20180531/out/host/include/elf.h \
   /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
@@ -71,7 +71,7 @@ deps_scripts/sortextable := \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/unistd.h \
-  /home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/tools/include/tools/be_byteshift.h \
+  /home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/tools/include/tools/be_byteshift.h \
   /usr/include/linux/types.h \
   /usr/include/x86_64-linux-gnu/asm/types.h \
   /usr/include/asm-generic/types.h \
@@ -84,7 +84,7 @@ deps_scripts/sortextable := \
   /usr/include/x86_64-linux-gnu/asm/posix_types.h \
   /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
   /usr/include/asm-generic/posix_types.h \
-  /home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/tools/include/tools/le_byteshift.h \
+  /home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/tools/include/tools/le_byteshift.h \
   scripts/sortextable.h \
 
 scripts/sortextable: $(deps_scripts/sortextable)

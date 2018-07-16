@@ -10,8 +10,8 @@
 # implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 
-prefix=/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/usr
-exec_prefix=/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/usr
+prefix=/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/usr
+exec_prefix=/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/usr
 includedir=${prefix}/include
 libdir=${exec_prefix}/lib
 isubdirafter=""

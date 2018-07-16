@@ -33,7 +33,7 @@ BEGIN {
 }
 
 setlocale(LC_MESSAGES, "");
-bindtextdomain("quilt", $ENV{'STAGING_DIR_HOST'} ? $ENV{'STAGING_DIR_HOST'} . '/share/locale' : "/home/wangyaliang/workspace/vecoo_new/out/host/share/locale");
+bindtextdomain("quilt", $ENV{'STAGING_DIR_HOST'} ? $ENV{'STAGING_DIR_HOST'} . '/share/locale' : "/home/laiyandong/v40_veegoo_20180531/out/host/share/locale");
 textdomain("quilt");
 
 sub _($) {

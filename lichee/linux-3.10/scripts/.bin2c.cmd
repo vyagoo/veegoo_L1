@@ -1,4 +1,4 @@
-cmd_scripts/bin2c := gcc -Wp,-MD,scripts/.bin2c.d -O2 -I/home/wangyaliang/workspace/vecoo_new/out/host/include -I/home/wangyaliang/workspace/vecoo_new/out/host/usr/include  -Wall -Wmissing-prototypes -Wstrict-prototypes   -I/home/wangyaliang/workspace/vecoo_new/out/host/include -I/home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/tools/include  -o scripts/bin2c scripts/bin2c.c  
+cmd_scripts/bin2c := gcc -Wp,-MD,scripts/.bin2c.d -O2 -I/home/laiyandong/v40_veegoo_20180531/out/host/include -I/home/laiyandong/v40_veegoo_20180531/out/host/usr/include  -Wall -Wmissing-prototypes -Wstrict-prototypes   -I/home/laiyandong/v40_veegoo_20180531/out/host/include -I/home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/tools/include  -o scripts/bin2c scripts/bin2c.c  
 
 source_scripts/bin2c := scripts/bin2c.c
 

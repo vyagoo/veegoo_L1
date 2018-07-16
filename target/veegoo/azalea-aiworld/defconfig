@@ -3196,7 +3196,7 @@ CONFIG_PACKAGE_adb=y
 CONFIG_PACKAGE_bluetooth=y
 CONFIG_PACKAGE_bluetooth-demo=y
 # CONFIG_PACKAGE_boot-play is not set
-# CONFIG_PACKAGE_cameratest is not set
+CONFIG_PACKAGE_cameratest=y
 CONFIG_PACKAGE_healthd=y
 # CONFIG_PACKAGE_healthd-demo is not set
 # CONFIG_PACKAGE_imgdecode is not set

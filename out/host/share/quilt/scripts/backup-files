@@ -56,7 +56,7 @@ usage ()
 if test -n "$STAGING_DIR_HOST"; then
 	: ${QUILT_DIR="$STAGING_DIR_HOST/share/quilt"}
 else
-	: ${QUILT_DIR=/home/wangyaliang/workspace/vecoo_new/out/host/share/quilt}
+	: ${QUILT_DIR=/home/laiyandong/v40_veegoo_20180531/out/host/share/quilt}
 fi
 
 . $QUILT_DIR/scripts/utilfns

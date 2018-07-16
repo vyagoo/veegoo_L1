@@ -136,15 +136,15 @@ progpath="$0"
 
 : ${CP="cp -f"}
 test "${ECHO+set}" = set || ECHO=${as_echo-'printf %s\n'}
-: ${EGREP="/home/wangyaliang/workspace/vecoo_new/out/host/bin/grep -E"}
-: ${FGREP="/home/wangyaliang/workspace/vecoo_new/out/host/bin/grep -F"}
-: ${GREP="/home/wangyaliang/workspace/vecoo_new/out/host/bin/grep"}
+: ${EGREP="/home/laiyandong/v40_veegoo_20180531/out/host/bin/grep -E"}
+: ${FGREP="/home/laiyandong/v40_veegoo_20180531/out/host/bin/grep -F"}
+: ${GREP="/home/laiyandong/v40_veegoo_20180531/out/host/bin/grep"}
 : ${LN_S="ln -s"}
 : ${MAKE="make"}
 : ${MKDIR="mkdir"}
 : ${MV="mv -f"}
 : ${RM="rm -f"}
-: ${SED="/home/wangyaliang/workspace/vecoo_new/out/host/bin/sed"}
+: ${SED="/home/laiyandong/v40_veegoo_20180531/out/host/bin/sed"}
 : ${SHELL="${CONFIG_SHELL-/bin/sh}"}
 : ${Xsed="$SED -e 1s/^X//"}
 

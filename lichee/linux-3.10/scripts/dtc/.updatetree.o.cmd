@@ -1,4 +1,4 @@
-cmd_scripts/dtc/updatetree.o := gcc -Wp,-MD,scripts/dtc/.updatetree.o.d -O2 -I/home/wangyaliang/workspace/vecoo_new/out/host/include -I/home/wangyaliang/workspace/vecoo_new/out/host/usr/include  -Wall -Wmissing-prototypes -Wstrict-prototypes   -I/home/wangyaliang/workspace/vecoo_new/out/host/include -I/home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/tools/include -Iscripts/dtc -Iscripts/dtc/libfdt -Iscripts/dtc/script_parser -c -o scripts/dtc/updatetree.o scripts/dtc/updatetree.c
+cmd_scripts/dtc/updatetree.o := gcc -Wp,-MD,scripts/dtc/.updatetree.o.d -O2 -I/home/laiyandong/v40_veegoo_20180531/out/host/include -I/home/laiyandong/v40_veegoo_20180531/out/host/usr/include  -Wall -Wmissing-prototypes -Wstrict-prototypes   -I/home/laiyandong/v40_veegoo_20180531/out/host/include -I/home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/tools/include -Iscripts/dtc -Iscripts/dtc/libfdt -Iscripts/dtc/script_parser -c -o scripts/dtc/updatetree.o scripts/dtc/updatetree.c
 
 source_scripts/dtc/updatetree.o := scripts/dtc/updatetree.c
 
@@ -27,8 +27,8 @@ deps_scripts/dtc/updatetree.o := \
   /usr/include/xlocale.h \
   /usr/include/x86_64-linux-gnu/bits/string.h \
   /usr/include/x86_64-linux-gnu/bits/string2.h \
-  /home/wangyaliang/workspace/vecoo_new/out/host/include/endian.h \
-  /home/wangyaliang/workspace/vecoo_new/out/host/include/byteswap.h \
+  /home/laiyandong/v40_veegoo_20180531/out/host/include/endian.h \
+  /home/laiyandong/v40_veegoo_20180531/out/host/include/byteswap.h \
   /usr/include/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
@@ -45,7 +45,7 @@ deps_scripts/dtc/updatetree.o := \
   /usr/include/x86_64-linux-gnu/bits/sigset.h \
   /usr/include/x86_64-linux-gnu/bits/time.h \
   /usr/include/x86_64-linux-gnu/bits/select2.h \
-  /home/wangyaliang/workspace/vecoo_new/out/host/include/sys/sysmacros.h \
+  /home/laiyandong/v40_veegoo_20180531/out/host/include/sys/sysmacros.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \

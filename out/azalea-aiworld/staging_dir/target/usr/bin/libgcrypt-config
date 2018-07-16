@@ -16,9 +16,9 @@ prefix="/usr"
 exec_prefix="/usr"
 version="1.6.1"
 includedir="${prefix}/include"
-libdir="/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/usr/lib"
-gpg_error_libs="-L/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/usr/lib -lgpg-error"
-gpg_error_cflags="-I/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/usr/include"
+libdir="/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/usr/lib"
+gpg_error_libs="-L/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/usr/lib -lgpg-error"
+gpg_error_cflags="-I/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/usr/include"
 
 # libgcrypt values.
 libs="-lgcrypt"

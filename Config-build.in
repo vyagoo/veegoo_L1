@@ -2994,6 +2994,10 @@ config PACKAGE_bluetooth-demo
 	bool
 	default y
 
+config PACKAGE_cameratest
+	bool
+	default y
+
 config PACKAGE_healthd
 	bool
 	default y

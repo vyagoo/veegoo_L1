@@ -30,7 +30,7 @@ archive_version=0.19.6
 if [ -n "$STAGING_DIR" ]; then
 	prefix="$STAGING_DIR/host"
 else
-	prefix="/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/host"
+	prefix="/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/host"
 fi
 datarootdir="${prefix}/share"
 : ${gettext_datadir="${datarootdir}/gettext"}
@@ -133,7 +133,7 @@ func_find_prefixes ()
   done
 }
 if test "no" = yes; then
-  exec_prefix="/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/host"
+  exec_prefix="/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/host"
   bindir="${exec_prefix}/bin"
   orig_installdir="$bindir" # see Makefile.am's *_SCRIPTS variables
   func_find_curr_installdir # determine curr_installdir

@@ -1,4 +1,4 @@
-cmd_scripts/mod/modpost.o := gcc -Wp,-MD,scripts/mod/.modpost.o.d -O2 -I/home/wangyaliang/workspace/vecoo_new/out/host/include -I/home/wangyaliang/workspace/vecoo_new/out/host/usr/include  -Wall -Wmissing-prototypes -Wstrict-prototypes   -I/home/wangyaliang/workspace/vecoo_new/out/host/include -I/home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/tools/include  -c -o scripts/mod/modpost.o scripts/mod/modpost.c
+cmd_scripts/mod/modpost.o := gcc -Wp,-MD,scripts/mod/.modpost.o.d -O2 -I/home/laiyandong/v40_veegoo_20180531/out/host/include -I/home/laiyandong/v40_veegoo_20180531/out/host/usr/include  -Wall -Wmissing-prototypes -Wstrict-prototypes   -I/home/laiyandong/v40_veegoo_20180531/out/host/include -I/home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/tools/include  -c -o scripts/mod/modpost.o scripts/mod/modpost.c
 
 source_scripts/mod/modpost.o := scripts/mod/modpost.c
 
@@ -28,8 +28,8 @@ deps_scripts/mod/modpost.o := \
   /usr/include/x86_64-linux-gnu/bits/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/ctype.h \
-  /home/wangyaliang/workspace/vecoo_new/out/host/include/endian.h \
-  /home/wangyaliang/workspace/vecoo_new/out/host/include/byteswap.h \
+  /home/laiyandong/v40_veegoo_20180531/out/host/include/endian.h \
+  /home/laiyandong/v40_veegoo_20180531/out/host/include/byteswap.h \
   /usr/include/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
@@ -60,7 +60,7 @@ deps_scripts/mod/modpost.o := \
   /usr/include/x86_64-linux-gnu/bits/sigset.h \
   /usr/include/x86_64-linux-gnu/bits/time.h \
   /usr/include/x86_64-linux-gnu/bits/select2.h \
-  /home/wangyaliang/workspace/vecoo_new/out/host/include/sys/sysmacros.h \
+  /home/laiyandong/v40_veegoo_20180531/out/host/include/sys/sysmacros.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
@@ -82,7 +82,7 @@ deps_scripts/mod/modpost.o := \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/getopt.h \
   /usr/include/x86_64-linux-gnu/bits/unistd.h \
-  /home/wangyaliang/workspace/vecoo_new/out/host/include/elf.h \
+  /home/laiyandong/v40_veegoo_20180531/out/host/include/elf.h \
   /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \

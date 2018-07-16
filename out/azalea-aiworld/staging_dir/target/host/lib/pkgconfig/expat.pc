@@ -1,5 +1,5 @@
-prefix=/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/host
-exec_prefix=/home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/host
+prefix=/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/host
+exec_prefix=/home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/host
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
 

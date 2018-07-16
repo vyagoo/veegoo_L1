@@ -14,19 +14,19 @@
 @	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.3, MPC version 1.0.3
 @ GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 @ options passed:  -nostdinc
-@ -I /home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/arch/arm/include
+@ -I /home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/arch/arm/include
 @ -I arch/arm/include/generated -I include
-@ -I /home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/arch/arm/include/uapi
+@ -I /home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/arch/arm/include/uapi
 @ -I arch/arm/include/generated/uapi
-@ -I /home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/include/uapi
+@ -I /home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/include/uapi
 @ -I include/generated/uapi -I arch/arm/mach-sunxi/include
-@ -iprefix /home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/
-@ -idirafter /home/wangyaliang/workspace/vecoo_new/out/azalea-aiworld/staging_dir/target/usr/include
+@ -iprefix /home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/
+@ -idirafter /home/laiyandong/v40_veegoo_20180531/out/azalea-aiworld/staging_dir/target/usr/include
 @ -D __KERNEL__ -D __LINUX_ARM_ARCH__=7 -U arm -D CC_HAVE_ASM_GOTO
 @ -D KBUILD_STR(s)=#s -D KBUILD_BASENAME=KBUILD_STR(asm_offsets)
 @ -D KBUILD_MODNAME=KBUILD_STR(asm_offsets)
-@ -isystem /home/wangyaliang/workspace/vecoo_new/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/include
-@ -include /home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/include/linux/kconfig.h
+@ -isystem /home/laiyandong/v40_veegoo_20180531/prebuilt/gcc/linux-x86/arm/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.1/include
+@ -include /home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/include/linux/kconfig.h
 @ -MD arch/arm/kernel/.asm-offsets.s.d arch/arm/kernel/asm-offsets.c
 @ -mlittle-endian -mabi=aapcs-linux -mno-thumb-interwork -marm
 @ -march=armv7-a -mfloat-abi=soft -mtls-dialect=gnu
@@ -499,17 +499,17 @@ main:
 .Letext0:
 	.file 2 "include/uapi/asm-generic/int-ll64.h"
 	.file 3 "include/asm-generic/int-ll64.h"
-	.file 4 "/home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/include/uapi/asm-generic/posix_types.h"
+	.file 4 "/home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/include/uapi/asm-generic/posix_types.h"
 	.file 5 "include/linux/types.h"
 	.file 6 "include/linux/capability.h"
 	.file 7 "include/uapi/linux/time.h"
-	.file 8 "/home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/arch/arm/include/asm/outercache.h"
+	.file 8 "/home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/arch/arm/include/asm/outercache.h"
 	.file 9 "include/linux/sched.h"
-	.file 10 "/home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/arch/arm/include/asm/spinlock_types.h"
+	.file 10 "/home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/arch/arm/include/asm/spinlock_types.h"
 	.file 11 "include/linux/spinlock_types.h"
 	.file 12 "include/linux/lockdep.h"
-	.file 13 "/home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/arch/arm/include/asm/processor.h"
-	.file 14 "/home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/arch/arm/include/asm/atomic.h"
+	.file 13 "/home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/arch/arm/include/asm/processor.h"
+	.file 14 "/home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/arch/arm/include/asm/atomic.h"
 	.file 15 "include/asm-generic/atomic-long.h"
 	.file 16 "include/linux/rbtree.h"
 	.file 17 "include/linux/cpumask.h"
@@ -519,14 +519,14 @@ main:
 	.file 21 "include/linux/completion.h"
 	.file 22 "include/linux/mm_types.h"
 	.file 23 "include/linux/uprobes.h"
-	.file 24 "/home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/arch/arm/include/asm/pgtable-2level-types.h"
-	.file 25 "/home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/arch/arm/include/asm/mmu.h"
+	.file 24 "/home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/arch/arm/include/asm/pgtable-2level-types.h"
+	.file 25 "/home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/arch/arm/include/asm/mmu.h"
 	.file 26 "include/linux/mm.h"
 	.file 27 "include/asm-generic/cputime_jiffies.h"
 	.file 28 "include/linux/uidgid.h"
 	.file 29 "include/linux/sem.h"
-	.file 30 "/home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/include/uapi/asm-generic/signal-defs.h"
-	.file 31 "/home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/arch/arm/include/asm/signal.h"
+	.file 30 "/home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/include/uapi/asm-generic/signal-defs.h"
+	.file 31 "/home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/arch/arm/include/asm/signal.h"
 	.file 32 "include/uapi/asm-generic/siginfo.h"
 	.file 33 "include/linux/signal.h"
 	.file 34 "include/linux/pid.h"
@@ -543,7 +543,7 @@ main:
 	.file 45 "include/linux/task_io_accounting.h"
 	.file 46 "include/linux/cred.h"
 	.file 47 "include/linux/llist.h"
-	.file 48 "/home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/arch/arm/include/asm/tlbflush.h"
+	.file 48 "/home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/arch/arm/include/asm/tlbflush.h"
 	.file 49 "include/linux/vmstat.h"
 	.file 50 "include/linux/ioport.h"
 	.file 51 "include/linux/kobject_ns.h"
@@ -555,25 +555,25 @@ main:
 	.file 57 "include/linux/pm.h"
 	.file 58 "include/linux/device.h"
 	.file 59 "include/linux/pm_wakeup.h"
-	.file 60 "/home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/arch/arm/include/asm/device.h"
+	.file 60 "/home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/arch/arm/include/asm/device.h"
 	.file 61 "include/linux/dma-mapping.h"
 	.file 62 "include/linux/dma-attrs.h"
 	.file 63 "include/linux/dma-direction.h"
 	.file 64 "include/asm-generic/scatterlist.h"
 	.file 65 "include/linux/scatterlist.h"
-	.file 66 "/home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/arch/arm/include/asm/hwcap.h"
+	.file 66 "/home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/arch/arm/include/asm/hwcap.h"
 	.file 67 "include/linux/printk.h"
 	.file 68 "include/linux/kernel.h"
 	.file 69 "include/linux/time.h"
-	.file 70 "/home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/arch/arm/include/asm/memory.h"
+	.file 70 "/home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/arch/arm/include/asm/memory.h"
 	.file 71 "include/linux/highuid.h"
 	.file 72 "include/linux/seq_file.h"
 	.file 73 "include/asm-generic/percpu.h"
 	.file 74 "include/linux/percpu_counter.h"
 	.file 75 "include/linux/debug_locks.h"
 	.file 76 "include/asm-generic/pgtable.h"
-	.file 77 "/home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/arch/arm/include/asm/dma-mapping.h"
-	.file 78 "/home/wangyaliang/workspace/vecoo_new/lichee/linux-3.10/arch/arm/include/asm/cachetype.h"
+	.file 77 "/home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/arch/arm/include/asm/dma-mapping.h"
+	.file 78 "/home/laiyandong/v40_veegoo_20180531/lichee/linux-3.10/arch/arm/include/asm/cachetype.h"
 	.section	.debug_info,"",%progbits
 .Ldebug_info0:
 	.4byte	0x467f
@@ -10084,6 +10084,9 @@ main:
 	.ascii	"last_busy\000"
 .LASF824:
 	.ascii	"wakeup_source\000"
+.LASF948:
+	.ascii	"/home/laiyandong/v40_veegoo_20180531/lichee/linux-3"
+	.ascii	".10\000"
 .LASF912:
 	.ascii	"orig_nents\000"
 .LASF306:
@@ -10482,9 +10485,8 @@ main:
 	.ascii	"hiwater_rss\000"
 .LASF87:
 	.ascii	"tasks\000"
-.LASF948:
-	.ascii	"/home/wangyaliang/workspace/vecoo_new/lichee/linux-"
-	.ascii	"3.10\000"
+.LASF301:
+	.ascii	"objects\000"
 .LASF682:
 	.ascii	"attribute_group\000"
 .LASF250:
@@ -10531,8 +10533,6 @@ main:
 	.ascii	"owner\000"
 .LASF85:
 	.ascii	"nr_cpus_allowed\000"
-.LASF301:
-	.ascii	"objects\000"
 .LASF491:
 	.ascii	"entry\000"
 .LASF103:
